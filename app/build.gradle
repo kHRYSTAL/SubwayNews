@@ -71,6 +71,7 @@ dependencies {
     compile rootProject.ext.dependencies["appcompat-v7"]
     compile rootProject.ext.dependencies["support-v13"]
     compile rootProject.ext.dependencies["gson"]
+    compile rootProject.ext.dependencies["klog"]
     releaseCompile rootProject.ext.dependencies["leakcanary"]
     debugCompile rootProject.ext.dependencies["leakcanary-noop"]
 }
